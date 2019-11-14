@@ -1,0 +1,5 @@
+<h2>Song Index Page</h2>
+
+<% @songs.each do |song| %>
+   <p><%= song.name %><br><%= song.artist_id%><br><%= song.genre_id %> </p>
+<% end %>
